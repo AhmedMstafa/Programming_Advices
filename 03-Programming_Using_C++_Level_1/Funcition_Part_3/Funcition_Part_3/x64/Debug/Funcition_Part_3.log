@@ -1,0 +1,23 @@
+﻿  Funcition_Part_3.cpp
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(57,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(63,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(67,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(73,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(77,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(83,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(87,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(93,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(97,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(103,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(109,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(115,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(124,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(144,14): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(159,77): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(165,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(165,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(169,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(171,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(173,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\CPP\Funcition_Part_3\Funcition_Part_3\Funcition_Part_3.cpp(174,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Funcition_Part_3.vcxproj -> D:\CPP\Funcition_Part_3\x64\Debug\Funcition_Part_3.exe
