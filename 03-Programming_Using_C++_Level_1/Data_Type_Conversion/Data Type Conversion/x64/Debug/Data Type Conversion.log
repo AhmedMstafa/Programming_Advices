@@ -1,4 +1,0 @@
-﻿  Data Type Conversion.cpp
-D:\CPP\Data Type Conversion\Data Type Conversion\Data Type Conversion.cpp(66,11): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\CPP\Data Type Conversion\Data Type Conversion\Data Type Conversion.cpp(70,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Data Type Conversion.vcxproj -> D:\CPP\Data Type Conversion\x64\Debug\Data Type Conversion.exe

@@ -1,6 +1,0 @@
-﻿  Math Functions.cpp
-D:\CPP\Math Functions\Math Functions\Math Functions.cpp(123,11): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
-D:\CPP\Math Functions\Math Functions\Math Functions.cpp(123,35): warning C4244: 'initializing': conversion from 'double' to 'short', possible loss of data
-D:\CPP\Math Functions\Math Functions\Math Functions.cpp(127,13): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
-D:\CPP\Math Functions\Math Functions\Math Functions.cpp(129,14): warning C4244: '=': conversion from 'double' to 'short', possible loss of data
-  Math Functions.vcxproj -> D:\CPP\Math Functions\x64\Debug\Math Functions.exe
