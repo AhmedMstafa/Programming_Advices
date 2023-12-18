@@ -15,21 +15,29 @@ float ReadPosistiveNumber(string Message)
 	return Number;
 }
 
-void PrintDigits(int Number) {
-	int Remainder = 0, Number2 = 0;
 
+int ReverseNumber(int Number)
+{
+	int Remainder = 0, Number2 = 0;
 	while (Number > 0) {
 		Remainder = Number % 10;
 		Number /= 10;
-		Number2 = Number2 * 10 +Remainder;
+		Number2 = Number2 * 10 + Remainder;
 	}
+	return Number2;
+}
 
-	while (Number2 > 0)
+
+void PrintDigits(int Number) {
+	int Remainder = 0;
+
+
+	while (Number > 0)
 	{
-		cout << Number2 % 10 << endl;
-		Number2 /= 10;
+		Remainder = Number % 10;
+		Number /= 10;
+		cout << Remainder << endl;
 	}
-	
 }
 
 
@@ -38,5 +46,5 @@ void PrintDigits(int Number) {
 
 int main()
 {
-	PrintDigits(ReadPosistiveNumber("Please Enter Positive Number: "));
+	PrintDigits(ReverseNumber(ReadPosistiveNumber("Please Enter Positive Number: ")));
 }
