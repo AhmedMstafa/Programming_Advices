@@ -3,7 +3,7 @@
 using namespace std;
 
 string ReadString() {
-	string S; 
+	string S;
 	cout << "Please Enter Your Stirng?\n";
 	getline(cin, S);
 	return S;
@@ -20,11 +20,11 @@ string TrimLeft(string S) {
 	return S;
 	*/
 	for (short i = 0; i < S.length(); i++) {
-		if (S[i] != ' ')
-			S.substr(i, (S.length() -1));
-		else
-			break;
+		if (S[i] != ' ') {
+			return	S.substr(i, (S.length() - i));
+		}
 	}
+	return "";
 }
 
 
@@ -38,12 +38,11 @@ string TrimRight(string S) {
 	}
 	return S;
 	*/
-	for (short i = 0; i < S.length(); i++) {
-		if (S[S.length() - i] != ' ')
-			return	S.substr(S[0], S.length() - i);
-		else
-			break;
+	for (short i = S.length() - 1; i >= 0; i--) {
+		if (S[i] != ' ')
+			return	S.substr(0, i + 1);
 	}
+	return "";
 }
 
 string Trim(string S) {
@@ -53,7 +52,7 @@ string Trim(string S) {
 int main()
 {
 	string S = ReadString();
-	cout << "\nTrim Left =|" << TrimLeft(S) <<"|" << endl;
+	cout << "\nTrim Left =|" << TrimLeft(S) << "|" << endl;
 	cout << "\nTrim Right = " << TrimRight(S) << "|" << endl;
 	cout << "\nTrim  =|" << Trim(S) << "|" << endl;
 
