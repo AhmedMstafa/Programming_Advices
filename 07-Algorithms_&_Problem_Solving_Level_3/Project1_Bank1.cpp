@@ -42,7 +42,7 @@ vector<string>  SplitLine(string Line, string Sepatator = "#//#") {
         Line.erase(0, (pos + Sepatator.length()));
     }
     if (Line != "") {
-        vClinet.push_back(Word);
+        vClinet.push_back(Line);
     }
     return vClinet;
 }
@@ -397,6 +397,7 @@ void PerfromMainMenueOption(enMainManueOptions MainMinueOption) {
         break;
     }
 }
+
 
 void ShowMainMenue() {
     system("cls");
