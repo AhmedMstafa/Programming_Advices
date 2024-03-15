@@ -2,11 +2,6 @@
 #include <string>
 using namespace std;
 
-string Numbers(int Number) {
-	string N[11]{"One","Two", "Three", "Four","Five","Six", "Seven","Eight", "Nine" ,"Ten"};
-	return N[Number - 1];
-}
-
 
 int ReadNumber() {
 	int Number = 0;
@@ -15,47 +10,43 @@ int ReadNumber() {
 	return Number;
 }
 
-string TextOfNumber(int Count, int Number) {
-	if (Number == 0) return "";
-	switch (Count)
-	{
-	case 1:
-		return Numbers(Number) + " ";
-		break;
-	case 2:
-		return Numbers(Number) + "ty ";
-		break;
-	case 3:
-		return Numbers(Number) + " Handred ";
-		break;
-	case 4:
-		return Numbers(Number) + " Thousand ";
-		break;
-	case 5:
-	case 6:
-		return Numbers(Number) + " Handred Thousand ";
-		break;
-	case 7:
-		return Numbers(Number) + " Million ";
-		break;
+string NumberToText(int Number) {
+	if (Number == 0) {
+		return "";
 	}
-}
-
-
-
-void PrintTextOfNumber(int Number) {
-	string Numbers[100];
-	int Count = 0;
-	int Remainder = 0;
-	while (Number > 0) {
-		Count++;
-		Remainder = Number % 10;
-		Number /= 10;
-		Numbers[Count -1] = TextOfNumber(Count, Remainder);
+	if (Number >= 1 && Number <= 19) {
+		string arr[]{ "", "One","Two", "Three", "Four","Five","Six", "Seven","Eight", "Nine" ,"Ten""Eleven","Twelve","Thirteen","Fourteen", "Fifteen","Sixteen","Seventeen","Eighteen","Nineteen" };
+		return arr[Number] + " ";
 	}
-	for (int i = Count; i >= 0; i--) {
-		cout << Numbers[i];
+	if (Number >= 20 && Number <= 99) {
+		string arr[]{ "","","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety" };
+		return arr[Number / 10] + " " + NumberToText(Number % 10);
 	}
+	if (Number >= 100 && Number <= 199) {
+		return  "One Handred " + NumberToText(Number % 100);
+	}
+	if (Number >= 200 && Number <= 999) {
+		return NumberToText(Number / 100) + "Handreds " + NumberToText(Number % 100);
+	}
+	if (Number >= 1000 && Number <= 1999) {
+		return "One Thousand " + NumberToText(Number % 1000);
+	}
+	if (Number >= 2000 && Number <= 999999) {
+		return NumberToText(Number / 1000) + "Thousands " + NumberToText(Number % 1000);
+	}
+	if (Number >= 1000000 && Number <= 1999999) {
+		return "One Million " + NumberToText(Number % 1000000);
+	}
+	if (Number >= 2000000 && Number <= 999999999) {
+		return NumberToText(Number / 1000000) + "Millions " + NumberToText(Number % 1000000);
+	}
+	if (Number >= 1000000000 && Number <= 199999999) {
+		return "One Billion " + NumberToText(Number % 1000000000);
+	}
+	if (Number >= 1000000000 && Number <= 999999999999999) {
+		return NumberToText(Number / 1000000000) + "Billions " + NumberToText(Number % 1000000000);
+	}
+	return "";
 }
 
 
@@ -63,5 +54,5 @@ int main()
 {
 	int Number = ReadNumber();
 	cout << Number << endl;
-	PrintTextOfNumber(Number);
+	cout << NumberToText(Number);
 }
