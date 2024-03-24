@@ -1,32 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int ReadYear() {
-	int Year = 0;
-	cout << "Please Enter A Year: ";
-	cin >> Year;
-	return Year;
+short ReadYear() {
+    short Year = 0;
+    cout << "Please Enter a Year? ";
+    cin >> Year;
+    return Year;
 }
 
-bool IsLeapYear(int Year) {
-	if (!(Year % 400)) {
-		return true;
-	}
-	if ((Year % 100) && !(Year % 4)) {
-		return true;
-	}
-	return false;
+
+bool IsLeapYear(short Year) {
+    if (Year % 400 == 0) {
+        return true;
+    }
+    if (Year % 100 != 0 && Year % 4 == 0) {
+        return true;
+    }
+    return false;
 }
 
 int main()
 {
-	int Year = ReadYear();
-	if (IsLeapYear(Year)) {
-		cout << Year << " is Leap Year \n";
-	}
-	else {
-		cout << Year << " is not Leap Year \n";
+    short Year = ReadYear();
 
-	}
-	cout << 1600 % 100;
+    if (IsLeapYear(Year))
+        cout << "\nYes " << Year << " is Leap Year.\n";
+    else
+        cout << "\nNo " << Year << " is NOT Leap Year.\n";
+
+    return 0;
 }
