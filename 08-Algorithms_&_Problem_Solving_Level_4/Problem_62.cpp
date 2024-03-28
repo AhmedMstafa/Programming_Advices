@@ -68,13 +68,14 @@ bool IsValidDate(stDate Date) {
         return false;
 
     if (Date.Month == 2) {
-        if (Date.Day > 29) {
+        if(IsLeapYear(Date.Year))
+          if (Date.Day > 29) {
             return false;
-        }
-        else {
+          }
+          else {
             if (Date.Day > 28)
                 return false;
-        }
+          }
         
     }
 
