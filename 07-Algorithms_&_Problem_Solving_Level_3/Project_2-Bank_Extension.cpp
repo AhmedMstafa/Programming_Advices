@@ -275,10 +275,10 @@ bool DeleteClientByAccountName(string AccountName, vector<stClient>& vClients) {
             cout << "\n\nClinet Deleted Successfully.";
             return true;
         }
-        else {
-            cout << "\nClient With Account Name (" << AccountName << ") is Not Found!";
-            return false;
-        }
+    }
+    else {
+        cout << "\nClient With Account Name (" << AccountName << ") is Not Found!";
+        return false;
     }
 }
 
@@ -329,10 +329,10 @@ bool UpdateClientByAccountName(string AccountName, vector<stClient>& vClients) {
             cout << "\n\nClinet Updated Successfully.";
             return true;
         }
-        else {
-            cout << "\nClient With Account Name (" << AccountName << ") is Not Found!";
-            return false;
-        }
+    }
+    else {
+        cout << "\nClient With Account Name (" << AccountName << ") is Not Found!";
+        return false;
     }
 
 }
