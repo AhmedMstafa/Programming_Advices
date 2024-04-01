@@ -411,11 +411,6 @@ void ShowEndScreen() {
 }
 */
 
-void Logout() {
-    stUser Empty;
-    CurrentUser = Empty;
-    Login();
-}
 
 bool DepositClientAmount(string AccountName, double Amount, vector<stClient>& vClients) {
     char Answer = 'N';
@@ -599,7 +594,7 @@ void PerfromMainMenueOption(enMainManueOptions MainMinueOption) {
         ShowMangeUsersMenue();
     case Exit:
         system("cls");
-        Logout();
+        Login();
         break;
     }
 }
