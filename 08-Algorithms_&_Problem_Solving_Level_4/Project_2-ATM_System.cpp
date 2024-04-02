@@ -14,8 +14,8 @@ struct stClient {
 	bool DeletedMark = false;
 };
 
-enum enMainMenueOptions { QuickWithdraw = 1, NormalWithdraw = 2, Deposit = 3, CheckBalance = 4, Logout = 5};
-enum enWithdrawOptions { Twenty = 1,Fifty = 2, Onehundred = 3,Twohundred= 4,Fourhundred= 5,Sixhundred = 6,Eghithundred = 7,Onethousand =8,Exit = 9  };
+enum enMainMenueOptions { QuickWithdraw = 1, NormalWithdraw = 2, Deposit = 3, CheckBalance = 4, Logout = 5 };
+enum enWithdrawOptions { Twenty = 1, Fifty = 2, Onehundred = 3, Twohundred = 4, Fourhundred = 5, Sixhundred = 6, Eghithundred = 7, Onethousand = 8, Exit = 9 };
 
 const string CLIENTS_FILE = "../../Project_1_Bank_Extension_2/Project_1_Bank_Extension_2/Clients.txt";
 
@@ -30,7 +30,7 @@ short ReadMainMenueOption()
 	do {
 		cout << "Choose what do you want to do? [1 to 5]? ";
 		cin >> Option;
-	} while (Option < 1 || Option > 5);
+	} while (Option < 1 && Option > 5);
 	return Option;
 }
 
@@ -40,7 +40,7 @@ short ReadWithdrawOption()
 	do {
 		cout << "Choose what to withdraw from[1] to [8] ? ";
 		cin >> Option;
-	} while (Option < 1 || Option > 9);
+	} while (Option < 1 && Option > 9);
 	return Option;
 }
 
@@ -100,7 +100,7 @@ void SaveClinetsDataToFile(string FileName, vector<stClient> vClients)
 	fstream MyFile;
 	string Line;
 
-	MyFile.open(FileName, ios::out );
+	MyFile.open(FileName, ios::out);
 
 	if (MyFile.is_open()) {
 		for (stClient C : vClients) {
@@ -110,7 +110,7 @@ void SaveClinetsDataToFile(string FileName, vector<stClient> vClients)
 				MyFile << Line << endl;
 			}
 
-				
+
 		}
 		MyFile.close();
 	}
@@ -123,7 +123,7 @@ vector<stClient> ImportClientsFromFile(string FileName)
 	stClient Client;
 	vector<stClient> vClients;
 
-	MyFile.open(FileName, ios::in );
+	MyFile.open(FileName, ios::in);
 
 	if (MyFile.is_open()) {
 
@@ -155,9 +155,8 @@ bool FindClinetByAccountNumberAndPinCode(string AccountNumber, string PinCode, s
 
 void Login()
 {
-	bool IsWrongLogin = false;
-	string AccountNumber;
-	string PinCode;
+	bool LoginFaild = false;
+	string AccountNumber, PinCode;
 
 	do {
 		system("cls");
@@ -165,7 +164,7 @@ void Login()
 		cout << "\n\tLogin Screen";
 		cout << "\n______________________________\n";
 
-		if (IsWrongLogin)
+		if (LoginFaild)
 			cout << "\nWrong AccountNumber/PinCode!\n";
 
 
@@ -174,18 +173,16 @@ void Login()
 		cout << "\nEnter Pin Code? ";
 		cin >> PinCode;
 
-		if (!FindClinetByAccountNumberAndPinCode(AccountNumber, PinCode, CURRENT_CLIENT))
-			IsWrongLogin = true;
-		else
-			IsWrongLogin = false;
+		LoginFaild = !FindClinetByAccountNumberAndPinCode(AccountNumber, PinCode, CURRENT_CLIENT);
 
-	} while (IsWrongLogin);
+
+	} while (LoginFaild);
 	ShowMainMenueScreen();
 }
 
 void PrintClientBalance(double ClientBalance) {
 	cout << "Your Balance is " <<
-		(int)ClientBalance << endl;
+		ClientBalance << endl;
 }
 
 void ShowClientBalanceScreen()
@@ -197,7 +194,7 @@ void ShowClientBalanceScreen()
 	PrintClientBalance(CURRENT_CLIENT.AccountBalance);
 }
 
-void DepositClientAmount(stClient& CurrentClient,double Amount) 
+void DepositClientAmount(stClient& CurrentClient, double Amount)
 {
 	if (CurrentClient.AccountBalance < Amount * -1 && Amount < 0) {
 		cout << "\nThe amount exceeds your balance, make another choice.\n";
@@ -211,20 +208,20 @@ void DepositClientAmount(stClient& CurrentClient,double Amount)
 	cin >> Answer;
 	if (Answer == 'y' || Answer == 'Y') {
 
-	CurrentClient.AccountBalance += Amount;
-	
-	for (stClient& C : vClients) {
-		if (C.AccountNumber == CurrentClient.AccountNumber 
-			&&
-			C.PinCode == CurrentClient.PinCode) {
-			C = CurrentClient;
+		CurrentClient.AccountBalance += Amount;
+
+		for (stClient& C : vClients) {
+			if (C.AccountNumber == CurrentClient.AccountNumber
+				&&
+				C.PinCode == CurrentClient.PinCode) {
+				C = CurrentClient;
+			}
 		}
-	}
 
-	SaveClinetsDataToFile(CLIENTS_FILE, vClients);
+		SaveClinetsDataToFile(CLIENTS_FILE, vClients);
 
-	cout << "\nDone Successfully. New balance is: " <<
-		(int)CURRENT_CLIENT.AccountBalance << endl;
+		cout << "\nDone Successfully. New balance is: " <<
+			(int)CURRENT_CLIENT.AccountBalance << endl;
 	}
 
 }
@@ -300,7 +297,7 @@ void ShowNormalWithdrawScreen()
 	cout << "===========================================\n";
 
 	int WithdrawAmount = ReadNumberMultipleOf(5);
-	DepositClientAmount(CURRENT_CLIENT, WithdrawAmount * -1 );
+	DepositClientAmount(CURRENT_CLIENT, WithdrawAmount * -1);
 }
 
 int ReadPositiveAmount()
@@ -361,7 +358,7 @@ void PerformMainMenueOption(enMainMenueOptions ClientMenueOption)
 	}
 }
 
-void ShowMainMenueScreen() 
+void ShowMainMenueScreen()
 {
 	system("cls");
 	cout << "===========================================\n";
