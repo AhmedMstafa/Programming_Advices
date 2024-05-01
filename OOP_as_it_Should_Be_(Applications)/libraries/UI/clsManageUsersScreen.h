@@ -8,6 +8,7 @@
 #include "clsDeleteUser.h"
 #include "clsUpdateUser.h"
 #include "clsFindUser.h"
+
 using namespace std;
 
 class clsManageUsers : protected clsScreen

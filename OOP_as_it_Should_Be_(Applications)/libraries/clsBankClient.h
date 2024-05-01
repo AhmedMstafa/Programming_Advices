@@ -10,7 +10,7 @@ class clsBankClient : public clsPerson
 {
 
 private:
-	enum enMode { EmptyMode = 1, UpdateMode =2, AddMode =3};
+	enum enMode { EmptyMode = 1, UpdateMode = 2, AddMode = 3 };
 
 	string _AccountNumber;
 	string _PinCode;
@@ -21,10 +21,10 @@ private:
 
 	static clsBankClient _GetEmptyClientObject()
 	{
-		return clsBankClient(enMode::EmptyMode,"","","","","","",0);
+		return clsBankClient(enMode::EmptyMode, "", "", "", "", "", "", 0);
 	}
 
-	static clsBankClient _ConvertLineToObjec(string Line,string Seperator = "#//#")
+	static clsBankClient _ConvertLineToObjec(string Line, string Seperator = "#//#")
 	{
 		vector<string> vClient = clsString::Split(Line, Seperator);
 
@@ -70,7 +70,7 @@ private:
 		return vClients;
 	}
 
-	 void _SaveClientsDataToFile(vector<clsBankClient> vClients)
+	void _SaveClientsDataToFile(vector<clsBankClient> vClients)
 	{
 		fstream MyFile;
 		MyFile.open("../../db/Clients.txt", ios::out); // Write Mode
@@ -82,8 +82,8 @@ private:
 			{
 				if (C._MarkedForDeleted == false)
 				{
-				Line = _ConvertObjectToLine(C);
-				MyFile << Line << endl;
+					Line = _ConvertObjectToLine(C);
+					MyFile << Line << endl;
 				}
 
 			}
@@ -128,7 +128,67 @@ private:
 		_AddLineDataToFile(_ConvertObjectToLine(*this));
 	}
 
+	 string _PrepareTransferLogRecord(float Amount, clsBankClient DestinationClient, string UserName, string Separetor = "#//#")
+	{
+		 string TransferLogRecord = "";
+
+		 TransferLogRecord += clsDate::GetSystemDateTimeString() + Separetor;
+		 TransferLogRecord += AccountNumber() + Separetor;
+		 TransferLogRecord += DestinationClient.AccountNumber() + Separetor;
+		 TransferLogRecord += to_string(Amount) + Separetor;
+		 TransferLogRecord += to_string(AccountBalance) + Separetor;
+		 TransferLogRecord += to_string(DestinationClient.AccountBalance) + Separetor;
+		 TransferLogRecord += UserName;
+
+		return TransferLogRecord;
+	}
+
+	 void _RegisterTransferLog(float Amount, clsBankClient DestinationClient, string UserName)
+	 {
+		 string DataLine = _PrepareTransferLogRecord(Amount, DestinationClient, UserName);
+		 fstream MyFile;
+		 MyFile.open("../../db/TransferLog.txt", ios::app | ios::out);
+
+		 if (MyFile.is_open())
+		 {
+			 MyFile << DataLine << endl;
+
+			 MyFile.close();
+		 }
+	 }
+
+	struct stTransferLogRecord;
+	 
+	static stTransferLogRecord _ConvertLineToTrnsferLogRecord(string Line,string Separetor = "#//#")
+	 {
+		stTransferLogRecord TransferLog;
+
+		 vector<string> vString = clsString::Split(Line, Separetor);
+
+		 TransferLog.DateTime = vString[0];
+		 TransferLog.SourceAccountNumber = vString[1];
+		 TransferLog.DestinationAccountNumber = vString[2];
+		 TransferLog.Amount = stof(vString[3]);
+		 TransferLog.SrcBalaceAfter = stof(vString[4]);
+		 TransferLog.desBalanceAfter = stof(vString[5]);
+		 TransferLog.UserName = vString[6];
+
+		 return TransferLog;
+	 }
+
+
 public:
+
+	struct stTransferLogRecord
+	{
+		string DateTime;
+		string SourceAccountNumber;
+		string DestinationAccountNumber;
+		float Amount;
+		float SrcBalaceAfter;
+		float desBalanceAfter;
+		string UserName;
+	};
 
 	clsBankClient(enMode Mode, string FirstName, string LastName, string Email, string Phone, string AccountNumber, string PinCode, double AccountBalance)
 		: clsPerson(FirstName, LastName, Email, Phone)
@@ -320,6 +380,38 @@ public:
 
 		return false;
 
+	}
+
+	bool Transfer(float Amount,clsBankClient& DestinationClient)
+	{
+		if (this->Withdraw(Amount))
+		{
+			DestinationClient.Deposit(Amount);
+			_RegisterTransferLog(Amount, DestinationClient, CURRENT_USER.UserName);
+			return true;
+		} 
+	}
+
+	static vector<stTransferLogRecord> GetTransferLogList()
+	{
+		vector<stTransferLogRecord> vTransferLogs;
+		fstream MyFile;
+		MyFile.open("../../db/TransferLog.txt", ios::in);
+
+		if (MyFile.is_open())
+		{
+			string Line;
+			stTransferLogRecord TransferLog;
+			while (getline(MyFile, Line))
+			{
+				TransferLog = _ConvertLineToTrnsferLogRecord(Line);
+				vTransferLogs.push_back(TransferLog);
+			}
+
+			MyFile.close();
+		}
+
+		return vTransferLogs;
 	}
 
 	enSaveResults Save()

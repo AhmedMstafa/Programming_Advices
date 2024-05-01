@@ -17,7 +17,7 @@ private:
 		cout << "\nFull Name       : " << User.FullName();
 		cout << "\nEmail           : " << User.Email;
 		cout << "\nPhone           : " << User.Phone;
-		cout << "\nUser Name       : " << User.UserName();
+		cout << "\nUser Name       : " << User.UserName;
 		cout << "\nPassword        : " << User.Password;
 		cout << "\nPermissions     : " << User.Permissions;
 		cout << "\n________________________\n";

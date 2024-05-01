@@ -5,6 +5,8 @@
 #include <string>
 #include "clsPerson.h"
 #include "clsString.h"
+#include "clsDate.h"
+#include "clsUtil.h"
 using namespace std;
 
 class clsUser : public clsPerson
@@ -20,10 +22,22 @@ private:
 
 	bool _MarkForDeleted = false;
 
+	string _PrepareLoginInRecord(string Seperator = "#//#")
+	{
+		string LoginRecord = "";
+		LoginRecord += clsDate::GetSystemDateTimeString() + Seperator;
+		LoginRecord += UserName + Seperator;
+		LoginRecord += clsUtil::Encrypt(Password) + Seperator;
+		LoginRecord += to_string(Permissions);
+
+		return LoginRecord;
+	}
+
 	static clsUser _ConvertLineToUserObjec(string Line, string Separator = "#//#")
 	{
 		vector<string> vClient = clsString::Split(Line, Separator);
-		return clsUser(enMode::UpdateMode, vClient[0], vClient[1], vClient[2], vClient[3], vClient[4], vClient[5], stoi(vClient[6]));
+		return clsUser(enMode::UpdateMode, vClient[0], vClient[1], vClient[2],
+			vClient[3], vClient[4], clsUtil::Decrypt(vClient[5]), stoi(vClient[6]));
 	}
 
 	static string _ConvertObjectToLine(clsUser User, string Separator = "#//#")
@@ -35,8 +49,8 @@ private:
 		Line += User.Email + Separator;
 		Line += User.Phone + Separator;
 
-		Line += User.UserName() + Separator;
-		Line += User.Password + Separator;
+		Line += User.UserName + Separator;
+		Line += clsUtil::Encrypt(User.Password) + Separator;
 		Line += to_string(User.Permissions);
 
 		return Line;
@@ -109,7 +123,7 @@ private:
 
 		for (clsUser& User : vUsers)
 		{
-			if (User.UserName() == _UserName)
+			if (User.UserName == UserName)
 			{
 				User = *this;
 				break;
@@ -123,6 +137,21 @@ private:
 		_AddDataLineToFile(_ConvertObjectToLine(*this));
 	}
 
+	struct stLoginRegisterRecord;
+
+	static stLoginRegisterRecord _ConvertLineToLoginRegisterRecord(string Line, string separetor = "#//#")
+	{
+		vector<string> vString = clsString::Split(Line, separetor);
+		stLoginRegisterRecord LoginRegister;
+
+		LoginRegister.DateAndTime = vString[0];
+		LoginRegister.UserName = vString[1];
+		LoginRegister.Password = clsUtil::Decrypt(vString[2]);
+		LoginRegister.Permissions = stoi(vString[3]);
+
+		return LoginRegister;
+	}
+	
 public:
 
 	clsUser(enMode Mode, string FirstName, string LastName, string Email,
@@ -135,10 +164,17 @@ public:
 		_Permissions = Permissions;
 	}
 
-	string UserName()
+	string SetUserName()
 	{
 		return _UserName;
 	}
+
+	void SetUserName(string UserName)
+	{
+		_UserName = UserName;
+	}
+
+	__declspec(property(get = SetUserName, put = SetUserName)) string UserName;
 
 	string GetPassword()
 	{
@@ -163,6 +199,15 @@ public:
 	}
 
 	__declspec(property(get = GetPermissions, put = SetPermissions)) short Permissions;
+
+	struct stLoginRegisterRecord
+	{
+		string DateAndTime;
+		string UserName;
+		string Password;
+		short Permissions;
+	};
+
 
 	/*
 	void Print()
@@ -205,7 +250,7 @@ public:
 			{
 				clsUser User = _ConvertLineToUserObjec(Line);
 
-				if (User.UserName() == UserName)
+				if (User.UserName == UserName)
 				{
 					return User;
 				}
@@ -228,7 +273,7 @@ public:
 			{
 				clsUser User = _ConvertLineToUserObjec(Line);
 
-				if (User.UserName() == UserName && User.Password == Password)
+				if (User.UserName == UserName && User.Password == Password)
 				{
 					return User;
 				}
@@ -250,7 +295,7 @@ public:
 
 		for (clsUser& User : vUsers)
 		{
-			if (User.UserName() == _UserName)
+			if (User.UserName == UserName)
 			{
 				User._MarkForDeleted = true;
 				break;
@@ -263,7 +308,7 @@ public:
 	}
 
 	enum enPermissions {eAll = -1, pListClients = 1, pAddNewClient = 2,pDeleteClient = 4, pUpdateClient = 8
-		, pFindClient = 16, pTransactions = 32, pManageUsers = 64};
+		, pFindClient = 16, pTransactions = 32, pManageUsers = 64,pShowLoginRegister = 128};
 
 	static int ReadPermissionsToSet()
 	{
@@ -312,6 +357,11 @@ public:
 		if (Answer == 'y' || Answer == 'Y')
 			Permissions += enPermissions::pManageUsers;
 
+		cout << "\nManage Login Register ? y/n? ";
+		cin >> Answer;
+		if (Answer == 'y' || Answer == 'Y')
+			Permissions += enPermissions::pShowLoginRegister;
+
 		return Permissions;
 	}
 
@@ -329,6 +379,43 @@ public:
 			return true;
 		else
 			return false;
+	}
+
+	void RegisterLogin()
+	{
+		string stDataLine = _PrepareLoginInRecord();
+
+		fstream MyFile;
+
+		MyFile.open("../../db/LoginRegister.txt", ios::out | ios::app);
+
+		if (MyFile.is_open())
+		{
+			MyFile << stDataLine << endl;
+			MyFile.close();
+		}
+	}
+
+	static vector<stLoginRegisterRecord> GetLoginRegisterList()
+	{
+		vector<stLoginRegisterRecord> vLoginRegister;
+
+		fstream MyFile;
+		MyFile.open("../../db/LoginRegister.txt", ios::in);
+
+		if (MyFile.is_open())
+		{
+			string Line;
+			stLoginRegisterRecord LoginRegister;
+			while (getline(MyFile, Line))
+			{
+				LoginRegister = _ConvertLineToLoginRegisterRecord(Line);
+				vLoginRegister.push_back(LoginRegister);
+			}
+			MyFile.close();
+		}
+
+		return vLoginRegister;
 	}
 
 	enum enSaveResults { svSaveSucceded = 1, svFaildEmptyObject = 2, svFalidAccountNumberExists = 3 };
@@ -350,7 +437,7 @@ public:
 			break;
 		case clsUser::AddMode:
 
-			if (clsUser::IsUserExist(_UserName))
+			if (clsUser::IsUserExist(UserName))
 			{
 				return svFalidAccountNumberExists;
 			}

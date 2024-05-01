@@ -281,7 +281,19 @@ public:
 
     }
 
+     static string Encrypt(string password, short key=2) {
+        for (size_t i = 0; i < password.length(); ++i) {
+            password[i] = static_cast<char>((static_cast<int>(password[i]) + key));
+        }
+        return password;
+    }
 
+     static string Decrypt(string password, short key=2) {
+        for (size_t i = 0; i < password.length(); ++i) {
+            password[i] = static_cast<char>((static_cast<int>(password[i]) - key));
+        }
+        return password;
+    }
 
 };
 

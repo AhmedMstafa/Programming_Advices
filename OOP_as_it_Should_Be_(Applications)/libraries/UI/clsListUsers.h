@@ -14,7 +14,7 @@ private:
 	static void _PrintUserLineRecord(clsUser User)
 	{
 
-		cout << setw(8) << left << "" << "| " << setw(12) << left << User.UserName();
+		cout << setw(8) << left << "" << "| " << setw(12) << left << User.UserName;
 		cout << "| " << setw(25) << left << User.FullName();
 		cout << "| " << setw(12) << left << User.Phone;
 		cout << "| " << setw(20) << left << User.Email;
