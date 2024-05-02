@@ -12,6 +12,7 @@
 #include "clsManageUsersScreen.h"
 #include "../Global.h"
 #include "clsLoginRegisterScreen.h"
+#include "clsCurrencyExchangeScreen.h"
 using namespace std;
 
 class clsMainScreen : protected clsScreen
@@ -21,13 +22,13 @@ private:
 
 	enum enMainMenueOptions 
 	{eListClients = 1, eAddClient = 2, eDeleteClient = 3, eUpdteClient = 4,
-	eFindClient = 5, eTransactions = 6 , eManageUsers = 7,eLoginRegiser = 8, eExit = 9};
+	eFindClient = 5, eTransactions = 6 , eManageUsers = 7,eLoginRegiser = 8,eCurrencyExchange =9, eExit = 10};
 
 	static short _ReadMainMenueOption()
 	{
 		cout << setw(37) << left << "" 
-			<< "Choose What do you Wnat to do? [1 to 9]? ";
-		short Choice = clsInputValidate::ReadDblNumberBetween(1, 9, "\nPlease Enter Number Between 1 and 9");
+			<< "Choose What do you Wnat to do? [1 to 10]? ";
+		short Choice = clsInputValidate::ReadDblNumberBetween(1, 10, "\nPlease Enter Number Between 1 and 10");
 		return Choice;
 	}
 
@@ -88,6 +89,12 @@ private:
 
 	}
 
+	static void _ShowCurrencyExchangeScreen()
+	{
+		//cout << "\nCurrency Exchange Screen Will be here.\n";
+		clsCurrencyExchangeScreen::ShowCurrenciesMenue();
+	}
+
 	static void _Logout()
 	{
 		CURRENT_USER = clsUser::Find("", "");
@@ -137,6 +144,11 @@ private:
 			_ShowLoginResiterScreen();
 			_GoBackToMainMenue();
 			break;
+		case enMainMenueOptions::eCurrencyExchange:
+			system("cls");
+			_ShowCurrencyExchangeScreen();
+			_GoBackToMainMenue();
+			break;
 		case enMainMenueOptions::eExit:
 			system("cls");
 			_Logout();
@@ -161,7 +173,8 @@ public:
 		cout << setw(37) << left << "" << "\t[6] Transtactions.\n";
 		cout << setw(37) << left << "" << "\t[7] Manage Users.\n";
 		cout << setw(37) << left << "" << "\t[8] Login Register.\n";
-		cout << setw(37) << left << "" << "\t[9] Logout\n";
+		cout << setw(37) << left << "" << "\t[9] Currency Exchange.\n";
+		cout << setw(37) << left << "" << "\t[10] Logout\n";
 		cout << setw(37) << left << "" << "============================================\n";
 		_PerformMainMenueOption((enMainMenueOptions)_ReadMainMenueOption());
 	}
