@@ -1,13 +1,13 @@
 #include <iostream>
-#include "../../libraries/UI/clsLogin.h"
+#include "clsLoginScreen.h"
 using namespace std;
 
 int main()
 {
-
-	while (1)
+	while (true)
 	{
-	clsLogin::ShowLoginScreen();
+		if (!clsLogin::ShowLoginScreen())
+			break;
 	}
 
 	system("pause>0");
