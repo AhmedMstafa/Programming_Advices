@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
 
+template <class T>
 class Node
 {
 public:
-    Node* prev;
-    int value;
-    Node* next;
+    Node<T>* prev;
+    T value;
+    Node<T>* next;
 };
 
+template <class T>
 class DoublyLinkedList
 {
-private:
-    Node* _head;
+    Node<T>* _head;
 
 public:
     DoublyLinkedList()
@@ -25,74 +26,70 @@ public:
         return (_head == NULL);
     }
 
-    void InsertAtBeginning(int value)
+    void PrintNodeDetails(Node<T>* temp)
     {
-        Node* new_node = new Node;
-        new_node->value = value;
-        new_node->prev = NULL;
-        new_node->next = _head;
 
-        if (!IsEmpty())
-            _head->prev = new_node;
+        if (temp->prev != NULL)
+            cout << temp->prev->value;
+        else
+            cout << "NULL";
 
-        _head = new_node;
+        cout << " <--> " << temp->value << " <--> ";
+
+        if (temp->next != NULL)
+            cout << temp->next->value << "\n";
+        else
+            cout << "NULL";
+
     }
+
+    void PrintListDetails()
+
+    {
+        cout << "\n\n";
+        Node<T>* temp = _head;
+
+        while (temp != NULL) {
+            PrintNodeDetails(temp);
+            temp = temp->next;
+        }
+    }
+
 
     void PrintList()
+
     {
-        if (IsEmpty())
-            return;
-
-        Node* temp = _head;
-
+        cout << "NULL <--> ";
+        Node<T>* temp = _head;
+        while (temp != NULL) {
+            cout << temp->value << " <--> ";
+            temp = temp->next;
+        }
         cout << "NULL";
 
-        while (temp != NULL)
-        {
-            cout << " <--> " << temp->value;
-            temp = temp->next;
-        }
-
-        cout << " <--> NULL\n";
     }
 
-    void PrintNodeDetalis(Node* Node)
-    {
-        if (Node->prev != NULL)
-            cout << Node->prev->value;
-        else
-            cout << "NULL";
-
-        cout << " <--> " << Node->value << " <--> ";
-
-        if (Node->next != NULL)
-            cout << Node->next->value << '\n';
-        else
-            cout << "NULL";
-       
-    }
-
-    void PrintListDetalis()
+    void Display()
     {
         if (IsEmpty())
+        {
+            cout << "The List Is Empty!\n";
             return;
+        }
 
-        Node* temp = _head;
-
-        cout << "\n\n";
+        Node<T>* temp = _head;
         while (temp != NULL)
         {
-            PrintNodeDetalis(temp);
+            cout << temp->value << ' ';
             temp = temp->next;
         }
+
+        cout << '\n';
     }
 
-    Node* Find(int value)
+    Node<T>* Find(T value)
     {
-        if (IsEmpty())
-            return NULL;
-
-        Node* temp = _head;
+        Node<T>* temp = _head;
 
         while (temp != NULL)
         {
@@ -105,134 +102,162 @@ public:
         return NULL;
     }
 
-    void InsertAfter(int NodeAfter, int value)
+    void InsertAtBeginning(T value)
     {
-
-        Node* N1 = Find(NodeAfter);
-
-        if (N1 == NULL)
-            return;
-
-        Node* new_node = new Node;
+        Node<T>* new_node = new Node<T>;
         new_node->value = value;
+        new_node->next = _head;
+        new_node->prev = NULL;
 
-        new_node->next = N1->next;
-        new_node->prev = N1;
+        if (_head != NULL)
+            _head->prev = new_node;
 
-        if (N1->next != NULL)
-            N1->next->prev = new_node;
-
-        N1->next = new_node;
-
+        _head = new_node;
     }
 
-    void InsertAtEnd(int value)
+    void InsertAtEnd(T value)
     {
         if (IsEmpty())
         {
             InsertAtBeginning(value);
+            return;
         }
-        else
-        {
-        Node* new_node = new Node;
+
+        Node<T>* new_node = new Node<T>;
         new_node->value = value;
         new_node->next = NULL;
 
-        Node* temp = _head;
+        Node<T>* last_node = _head;
 
-        while (temp->next != NULL)
+        while (last_node->next != NULL)
         {
-            temp = temp->next;
+            last_node = last_node->next;
         }
 
-        new_node->prev = temp;
-        temp->next = new_node;
-        }
-
+        new_node->prev = last_node;
+        last_node->next = new_node;
     }
 
-    bool Delete(int value)
-    {
-        Node* NodeToDelete = Find(value);
-
-        if (IsEmpty() || NodeToDelete == NULL)
-            return false;
-        
-        if (NodeToDelete->value = _head->value)
-            _head = _head->next;
-
-        if (NodeToDelete->next != NULL)
-            NodeToDelete->next->prev = NodeToDelete->prev;
-
-        if (NodeToDelete->prev != NULL)
-            NodeToDelete->prev->next = NodeToDelete->next;
-
-        delete NodeToDelete;
-        return true;
-
-    }
-
-    bool DeleteFirstNode()
+    void InsertAfter(T prev_value, T value)
     {
         if (IsEmpty())
-            return false;
+        {
+            cout << "List Is Empty!\n";
+            return;
+        }
 
-        Node* delptr = _head;
+        Node<T>* new_node = new Node<T>;
+        new_node->value = value;
+        new_node->next = NULL;
+
+        Node<T>* current = Find(prev_value);
+
+        if (current == NULL)
+        {
+            cout << "Node Not Found!\n";
+            return;
+        }
+
+        new_node->next = current->next;
+        new_node->prev = current;
+
+        if (current->next != NULL)
+            current->next->prev = new_node;
+
+        current->next = new_node;
+    }
+
+    void DeleteFirstNode()
+    {
+        if (IsEmpty())
+        {
+            cout << "List Is Empty!\n";
+            return;
+        }
+
+        Node<T>* delptr = _head;
 
         _head = _head->next;
 
         if (_head != NULL)
-               _head->prev = NULL;
-        
-        delete delptr;
+            _head->prev = NULL;
 
+        delete delptr;
     }
 
-    bool DeleteLastNode()
+    void DeleteLastNode()
     {
         if (IsEmpty())
-            return false;
-
-        if (_head->next == NULL)
         {
-            delete _head;
-            _head = NULL;
-            return true;
+            cout << "List Is Empty!\n";
+            return;
         }
 
-        Node* current = _head;
+        Node<T>* current = _head;
+
+        if (current->next == NULL)
+        {
+            _head = NULL;
+            delete current;
+            return;
+        }
 
         while (current->next->next != NULL)
         {
             current = current->next;
         }
 
-        Node* temp = current->next;
-
+        Node<T>* temp = current->next;
         current->next = NULL;
-
         delete temp;
-        return true;
+
+    }
+
+    void Delete(T value)
+    {
+        if (IsEmpty())
+        {
+            cout << "List Is Empty!\n";
+            return;
+        }
+
+        Node<T>* current = Find(value);
+
+        if (current == NULL)
+        {
+            cout << "Node Not Found!\n";
+            return;
+        }
+
+        if (_head == current)
+            _head = _head->next;
+
+        if (current->next != NULL)
+            current->next->prev = current->prev;
+
+        if (current->prev != NULL)
+            current->prev->next = current->next;
+
+        delete current;
     }
 
 };
 
 int main()
 {
-    DoublyLinkedList dlst;
+
+    DoublyLinkedList<short> dlst;
+
     dlst.InsertAtBeginning(1);
-    dlst.InsertAtBeginning(2);
-    dlst.InsertAtBeginning(3);
-    dlst.InsertAtBeginning(4);
-    dlst.InsertAtBeginning(5);
 
     dlst.DeleteLastNode();
 
-    dlst.PrintList();
-    if (dlst.Find(3) != NULL)
-        cout << "\nNode Found\n";
+    if (dlst.Find(1))
+        cout << "Node Is Found\n";
     else
-        cout << "\nNode Not Found\n";
+        cout << "Node Not Found\n";
+
+    dlst.Display();
 
     return 0;
 }
