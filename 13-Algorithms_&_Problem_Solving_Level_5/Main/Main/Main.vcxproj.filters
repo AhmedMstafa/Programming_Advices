@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DS">
+      <UniqueIdentifier>{7aa0d180-c0ec-468f-b936-f68b82d7aec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projects">
+      <UniqueIdentifier>{7227e9f4-07d4-4f2a-80fe-28abb4a15abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projects\QueueLine">
+      <UniqueIdentifier>{835b536a-22c5-4280-9506-5abe117fc88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Projects\QueueLine\Lib">
+      <UniqueIdentifier>{57597c9b-3b06-45a3-ba08-a62b667eef36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsDbLinkedList.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyQueue.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyStack.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDynamicArray.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyQueueArr.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyStackArr.h">
+      <Filter>Header Files\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMyString.h">
+      <Filter>Header Files\Projects</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Projects\QueueLine\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Projects\QueueLine\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsQueueLine.h">
+      <Filter>Header Files\Projects\QueueLine</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTicket.h">
+      <Filter>Header Files\Projects\QueueLine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

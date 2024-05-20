@@ -1,0 +1,32 @@
+﻿  Main.cpp
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsQueueLine.h(35,23): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsQueueLine.h(36,21): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsQueueLine.h(150,51): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\Main\clsQueueLine.h(151,49): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+  Main.vcxproj -> D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\Main\x64\Debug\Main.exe
