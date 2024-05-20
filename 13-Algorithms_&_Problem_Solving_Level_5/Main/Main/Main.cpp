@@ -21,9 +21,10 @@ int main()
 
 	PayBillsQueue.PrintAllTickets();
 
-	PayBillsQueue.ServeNextClinet();
+	PayBillsQueue.ServeNextClient();
 	cout << "\nPay Bills Queue After Serving One Client\n";
 	PayBillsQueue.PrintInfo();
+	PayBillsQueue.PrintAllTickets();
 
 	cout << "\nSubscription Queue Info:\n";
 
@@ -38,7 +39,7 @@ int main()
 
 	SubscriptionsQueue.PrintAllTickets();
 
-	SubscriptionsQueue.ServeNextClinet();
+	SubscriptionsQueue.ServeNextClient();
 	cout << "\nSubscriptions Queue After Serving One Client\n";
 	SubscriptionsQueue.PrintInfo();
 

@@ -140,7 +140,6 @@
     <ClInclude Include="clsMyString.h" />
     <ClInclude Include="clsQueueLine.h" />
     <ClInclude Include="clsString.h" />
-    <ClInclude Include="clsTicket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

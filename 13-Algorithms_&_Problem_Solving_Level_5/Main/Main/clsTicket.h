@@ -5,11 +5,12 @@ using namespace std;
 
 class clsTicket
 {
-public:
+private:
 	string ID;
 	string Date;
 	short WatingClients;
 	short ServingTime;
+public:
 	clsTicket(string id, short wating_clinets, short serving_time)
 	{
 		ID = id;

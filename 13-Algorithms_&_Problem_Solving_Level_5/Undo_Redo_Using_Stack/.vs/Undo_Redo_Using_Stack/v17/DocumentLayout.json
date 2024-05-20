@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\Undo_Redo_Using_Stack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B79E1D0-8F42-4A4C-A90C-AC8FD3BB0FC3}|Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.vcxproj|D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B79E1D0-8F42-4A4C-A90C-AC8FD3BB0FC3}|Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.vcxproj|solutionrelative:Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Undo_Redo_Using_Stack.cpp",
+              "DocumentMoniker": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp",
+              "RelativeDocumentMoniker": "Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp",
+              "ToolTip": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp",
+              "RelativeToolTip": "Undo_Redo_Using_Stack\\Undo_Redo_Using_Stack.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T19:58:21.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

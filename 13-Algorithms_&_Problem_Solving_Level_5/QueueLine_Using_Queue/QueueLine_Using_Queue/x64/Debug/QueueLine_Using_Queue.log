@@ -1,0 +1,23 @@
+﻿  QueueLine_Using_Queue.cpp
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\QueueLine_Using_Queue\clsQueueLine.h(107,30): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'QueueLine_Using_Queue.cpp')
+  
+  QueueLine_Using_Queue.vcxproj -> D:\Programming_Advice\13-Algorithms_&_Problem_Solving_Level_5\QueueLine_Using_Queue\x64\Debug\QueueLine_Using_Queue.exe

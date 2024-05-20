@@ -62,8 +62,5 @@
     <ClInclude Include="clsQueueLine.h">
       <Filter>Header Files\Projects\QueueLine</Filter>
     </ClInclude>
-    <ClInclude Include="clsTicket.h">
-      <Filter>Header Files\Projects\QueueLine</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

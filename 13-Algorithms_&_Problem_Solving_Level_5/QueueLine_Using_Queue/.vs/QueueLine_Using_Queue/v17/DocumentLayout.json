@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{321FA51F-E5E2-4F8B-ACA7-46758E82307D}|QueueLine_Using_Queue\\QueueLine_Using_Queue.vcxproj|D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{321FA51F-E5E2-4F8B-ACA7-46758E82307D}|QueueLine_Using_Queue\\QueueLine_Using_Queue.vcxproj|solutionrelative:QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{321FA51F-E5E2-4F8B-ACA7-46758E82307D}|QueueLine_Using_Queue\\QueueLine_Using_Queue.vcxproj|D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\clsQueueLine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{321FA51F-E5E2-4F8B-ACA7-46758E82307D}|QueueLine_Using_Queue\\QueueLine_Using_Queue.vcxproj|solutionrelative:QueueLine_Using_Queue\\clsQueueLine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsQueueLine.h",
+              "DocumentMoniker": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\clsQueueLine.h",
+              "RelativeDocumentMoniker": "QueueLine_Using_Queue\\clsQueueLine.h",
+              "ToolTip": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\clsQueueLine.h",
+              "RelativeToolTip": "QueueLine_Using_Queue\\clsQueueLine.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-20T20:05:51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueueLine_Using_Queue.cpp",
+              "DocumentMoniker": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp",
+              "RelativeDocumentMoniker": "QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp",
+              "ToolTip": "D:\\Programming_Advice\\13-Algorithms_\u0026_Problem_Solving_Level_5\\QueueLine_Using_Queue\\QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp",
+              "RelativeToolTip": "QueueLine_Using_Queue\\QueueLine_Using_Queue.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T20:04:46.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
