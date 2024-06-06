@@ -1,0 +1,13 @@
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\bin\Debug\First_Windows_Forms_Application.exe.config
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\bin\Debug\First_Windows_Forms_Application.exe
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\bin\Debug\First_Windows_Forms_Application.pdb
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.csproj.AssemblyReference.cache
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.Form1.resources
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.Properties.Resources.resources
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.csproj.GenerateResource.cache
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.csproj.CoreCompileInputs.cache
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.exe
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.pdb
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.FrmMain.resources
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.FrmMessageBox.resources
+D:\Programming_Advice\14-C#-Level_1\First_Windows_Forms_Application\obj\Debug\First_Windows_Forms_Application.FrmCheckBox.resources

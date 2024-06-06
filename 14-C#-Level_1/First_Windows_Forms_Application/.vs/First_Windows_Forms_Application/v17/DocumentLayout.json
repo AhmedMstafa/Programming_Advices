@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|d:\\programming_advice\\14-c#-level_1\\first_windows_forms_application\\frmcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|solutionrelative:frmcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|d:\\programming_advice\\14-c#-level_1\\first_windows_forms_application\\frmcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|solutionrelative:frmcheckbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|d:\\programming_advice\\14-c#-level_1\\first_windows_forms_application\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9237B18E-9EFD-4D97-852D-FAE97B72FA99}|First_Windows_Forms_Application.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCheckBox.cs",
+              "DocumentMoniker": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmCheckBox.cs",
+              "RelativeDocumentMoniker": "FrmCheckBox.cs",
+              "ToolTip": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmCheckBox.cs",
+              "RelativeToolTip": "FrmCheckBox.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:47:55.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCheckBox.cs [Design]",
+              "DocumentMoniker": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmCheckBox.cs",
+              "RelativeDocumentMoniker": "FrmCheckBox.cs",
+              "ToolTip": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmCheckBox.cs [Design]",
+              "RelativeToolTip": "FrmCheckBox.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:43:07.467Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "D:\\Programming_Advice\\14-C#-Level_1\\First_Windows_Forms_Application\\FrmMain.cs [Design]",
+              "RelativeToolTip": "FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:32:37.641Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
