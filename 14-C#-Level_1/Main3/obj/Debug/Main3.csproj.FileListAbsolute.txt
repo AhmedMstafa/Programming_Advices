@@ -1,0 +1,7 @@
+D:\Programming_Advice\14-C#-Level_1\Main3\bin\Debug\Main3.exe.config
+D:\Programming_Advice\14-C#-Level_1\Main3\bin\Debug\Main3.exe
+D:\Programming_Advice\14-C#-Level_1\Main3\bin\Debug\Main3.pdb
+D:\Programming_Advice\14-C#-Level_1\Main3\obj\Debug\Main3.csproj.AssemblyReference.cache
+D:\Programming_Advice\14-C#-Level_1\Main3\obj\Debug\Main3.csproj.CoreCompileInputs.cache
+D:\Programming_Advice\14-C#-Level_1\Main3\obj\Debug\Main3.exe
+D:\Programming_Advice\14-C#-Level_1\Main3\obj\Debug\Main3.pdb
