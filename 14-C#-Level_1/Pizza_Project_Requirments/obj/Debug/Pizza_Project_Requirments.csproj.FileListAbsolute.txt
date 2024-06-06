@@ -1,0 +1,10 @@
+D:\Programming_Advice\Training\Pizza_Project_Requirments\bin\Debug\Pizza_Project_Requirments.exe.config
+D:\Programming_Advice\Training\Pizza_Project_Requirments\bin\Debug\Pizza_Project_Requirments.exe
+D:\Programming_Advice\Training\Pizza_Project_Requirments\bin\Debug\Pizza_Project_Requirments.pdb
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.csproj.AssemblyReference.cache
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.Form1.resources
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.Properties.Resources.resources
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.csproj.GenerateResource.cache
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.csproj.CoreCompileInputs.cache
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.exe
+D:\Programming_Advice\Training\Pizza_Project_Requirments\obj\Debug\Pizza_Project_Requirments.pdb
