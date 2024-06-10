@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|d:\\programming_advice\\14-c#-level_1\\tac_tic_toe_game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|d:\\programming_advice\\14-c#-level_1\\tac_tic_toe_game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|d:\\programming_advice\\14-c#-level_1\\tac_tic_toe_game\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E103399-D707-45C9-ABD0-D732825DF0D0}|Tac_Tic_Toe_Game.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +34,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAawIMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:45:12.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Programming_Advice\\14-C#-Level_1\\Tac_Tic_Toe_Game\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAbAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAMkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T11:23:33.292Z",
               "EditorCaption": ""

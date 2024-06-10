@@ -128,7 +128,7 @@
             this.btn1.Tag = "?";
             this.btn1.Text = " ";
             this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn4
             // 
@@ -144,7 +144,7 @@
             this.btn4.Tag = "?";
             this.btn4.Text = " ";
             this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn7
             // 
@@ -160,7 +160,7 @@
             this.btn7.Tag = "?";
             this.btn7.Text = " ";
             this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn8
             // 
@@ -176,7 +176,7 @@
             this.btn8.Tag = "?";
             this.btn8.Text = " ";
             this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn5
             // 
@@ -192,7 +192,7 @@
             this.btn5.Tag = "?";
             this.btn5.Text = " ";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn2
             // 
@@ -208,7 +208,7 @@
             this.btn2.Tag = "?";
             this.btn2.Text = " ";
             this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn9
             // 
@@ -224,7 +224,7 @@
             this.btn9.Tag = "?";
             this.btn9.Text = " ";
             this.btn9.UseVisualStyleBackColor = false;
-            this.btn9.Click += new System.EventHandler(this.btn9_Click);
+            this.btn9.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn6
             // 
@@ -240,7 +240,7 @@
             this.btn6.Tag = "?";
             this.btn6.Text = " ";
             this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.btn_Click);
             // 
             // btn3
             // 
@@ -256,7 +256,7 @@
             this.btn3.Tag = "?";
             this.btn3.Text = " ";
             this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.btn_Click);
             // 
             // authour
             // 

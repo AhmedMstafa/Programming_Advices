@@ -196,51 +196,10 @@ namespace Tac_Tic_Toe_Game
 
         }
 
-        private void btn1_Click(object sender, EventArgs e)
+        private void btn_Click(object sender, EventArgs e)
         {
-            ChangeImge(btn1);
+            ChangeImge((Button)sender);
         }
-
-        private void btn2_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn2);
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn3);
-        }
-
-        private void btn4_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn4);
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn5);
-        }
-
-        private void btn6_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn6);
-        }
-
-        private void btn7_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn7);
-        }
-
-        private void btn8_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn8);
-        }
-
-        private void btn9_Click(object sender, EventArgs e)
-        {
-            ChangeImge(btn9);
-        }
-
         private void btnRestart_Click(object sender, EventArgs e)
         {
             RestartGame();
