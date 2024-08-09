@@ -1,101 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\",
+  "WorkspaceRootPath": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsLoginScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsTransactionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsTransferLogScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsTransferScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsManageUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsCurrencyExchangeMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsUpdateCurrencyRateScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsFindCurrencyScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsCurrenciesListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsWithdrawScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsUpdateClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsTotalBalancesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsFindClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsDepositScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsDeleteClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsAddNewClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{E707DD76-D764-43A4-A0F2-162E9D77F59F}|Main\\Main.vcxproj|solutionrelative:Main\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -109,7 +109,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -123,9 +123,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "clsManageUsersScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h",
               "RelativeDocumentMoniker": "Main\\clsManageUsersScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsManageUsersScreen.h",
               "RelativeToolTip": "Main\\clsManageUsersScreen.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -133,23 +133,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "clsLoginScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h",
               "RelativeDocumentMoniker": "Main\\clsLoginScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginScreen.h",
               "RelativeToolTip": "Main\\clsLoginScreen.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADwAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-03T02:22:13.28Z"
+              "WhenOpened": "2024-05-03T02:22:13.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "clsLoginRegisterScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h",
               "RelativeDocumentMoniker": "Main\\clsLoginRegisterScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsLoginRegisterScreen.h",
               "RelativeToolTip": "Main\\clsLoginRegisterScreen.h",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -159,9 +160,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "clsUpdateCurrencyRateScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h",
               "RelativeDocumentMoniker": "Main\\clsUpdateCurrencyRateScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateCurrencyRateScreen.h",
               "RelativeToolTip": "Main\\clsUpdateCurrencyRateScreen.h",
               "ViewState": "AQIAACcAAAAAAAAAAAAAABkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -171,9 +172,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "clsFindCurrencyScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h",
               "RelativeDocumentMoniker": "Main\\clsFindCurrencyScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindCurrencyScreen.h",
               "RelativeToolTip": "Main\\clsFindCurrencyScreen.h",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACwAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -183,9 +184,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "clsCurrencyExchangeMainScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h",
               "RelativeDocumentMoniker": "Main\\clsCurrencyExchangeMainScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyExchangeMainScreen.h",
               "RelativeToolTip": "Main\\clsCurrencyExchangeMainScreen.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -195,9 +196,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "clsCurrencyCalculatorScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h",
               "RelativeDocumentMoniker": "Main\\clsCurrencyCalculatorScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrencyCalculatorScreen.h",
               "RelativeToolTip": "Main\\clsCurrencyCalculatorScreen.h",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -207,9 +208,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "clsCurrenciesListScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h",
               "RelativeDocumentMoniker": "Main\\clsCurrenciesListScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsCurrenciesListScreen.h",
               "RelativeToolTip": "Main\\clsCurrenciesListScreen.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -219,9 +220,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "clsWithdrawScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h",
               "RelativeDocumentMoniker": "Main\\clsWithdrawScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsWithdrawScreen.h",
               "RelativeToolTip": "Main\\clsWithdrawScreen.h",
               "ViewState": "AQIAABIAAAAAAAAAAAAAADIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -231,9 +232,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "clsUpdateClientScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h",
               "RelativeDocumentMoniker": "Main\\clsUpdateClientScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsUpdateClientScreen.h",
               "RelativeToolTip": "Main\\clsUpdateClientScreen.h",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAACoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -243,9 +244,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "clsTransferScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h",
               "RelativeDocumentMoniker": "Main\\clsTransferScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferScreen.h",
               "RelativeToolTip": "Main\\clsTransferScreen.h",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -255,9 +256,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "clsTransferLogScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h",
               "RelativeDocumentMoniker": "Main\\clsTransferLogScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransferLogScreen.h",
               "RelativeToolTip": "Main\\clsTransferLogScreen.h",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -267,9 +268,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "clsTransactionsScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h",
               "RelativeDocumentMoniker": "Main\\clsTransactionsScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTransactionsScreen.h",
               "RelativeToolTip": "Main\\clsTransactionsScreen.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -279,9 +280,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "clsTotalBalancesScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h",
               "RelativeDocumentMoniker": "Main\\clsTotalBalancesScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsTotalBalancesScreen.h",
               "RelativeToolTip": "Main\\clsTotalBalancesScreen.h",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -291,9 +292,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "clsFindClientScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h",
               "RelativeDocumentMoniker": "Main\\clsFindClientScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsFindClientScreen.h",
               "RelativeToolTip": "Main\\clsFindClientScreen.h",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -303,9 +304,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "clsDepositScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h",
               "RelativeDocumentMoniker": "Main\\clsDepositScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDepositScreen.h",
               "RelativeToolTip": "Main\\clsDepositScreen.h",
               "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -315,9 +316,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "clsDeleteClientScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h",
               "RelativeDocumentMoniker": "Main\\clsDeleteClientScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsDeleteClientScreen.h",
               "RelativeToolTip": "Main\\clsDeleteClientScreen.h",
               "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -327,9 +328,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "clsClientListScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h",
               "RelativeDocumentMoniker": "Main\\clsClientListScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsClientListScreen.h",
               "RelativeToolTip": "Main\\clsClientListScreen.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -339,9 +340,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "clsAddNewClientScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h",
               "RelativeDocumentMoniker": "Main\\clsAddNewClientScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsAddNewClientScreen.h",
               "RelativeToolTip": "Main\\clsAddNewClientScreen.h",
               "ViewState": "AQIAACoAAAAAAAAAAAAAABkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -351,9 +352,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "clsBankClient.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h",
               "RelativeDocumentMoniker": "Main\\clsBankClient.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsBankClient.h",
               "RelativeToolTip": "Main\\clsBankClient.h",
               "ViewState": "AQIAAHoBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -363,9 +364,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "clsScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h",
               "RelativeDocumentMoniker": "Main\\clsScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsScreen.h",
               "RelativeToolTip": "Main\\clsScreen.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -376,9 +377,7 @@
               "DocumentIndex": 24,
               "Title": "Homework.cpp",
               "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\etc\\Homework\\Homework\\Homework.cpp",
-              "RelativeDocumentMoniker": "..\\etc\\Homework\\Homework\\Homework.cpp",
               "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\etc\\Homework\\Homework\\Homework.cpp",
-              "RelativeToolTip": "..\\etc\\Homework\\Homework\\Homework.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-03T02:14:32.485Z"
@@ -387,9 +386,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "clsMainScreen.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h",
               "RelativeDocumentMoniker": "Main\\clsMainScreen.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsMainScreen.h",
               "RelativeToolTip": "Main\\clsMainScreen.h",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -397,29 +396,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsInputValidate.h",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h",
               "RelativeDocumentMoniker": "Main\\clsInputValidate.h",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\clsInputValidate.h",
               "RelativeToolTip": "Main\\clsInputValidate.h",
               "ViewState": "AQIAADwAAAAAAAAAAAAAAAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-03T02:12:10.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T02:12:10.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
-              "DocumentMoniker": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp",
+              "DocumentMoniker": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp",
               "RelativeDocumentMoniker": "Main\\Main.cpp",
-              "ToolTip": "D:\\Programming_Advice\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp",
+              "ToolTip": "C:\\Users\\M\\Downloads\\Programming_Advices\\OOP_as_it_Should_Be_(Applications)\\Main\\Main\\Main.cpp",
               "RelativeToolTip": "Main\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T01:52:35.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T01:52:35.138Z"
             }
           ]
         }
